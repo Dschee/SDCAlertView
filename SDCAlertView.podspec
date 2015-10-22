@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.source_files =	'SDCAlertView/Source/*.{h,m}'
 
   s.requires_arc = true
-  
+  s.tvos.deployment_target = '9.0'
+
 # Pod Dependencies
   s.dependency 'SDCAutoLayout', '~> 2.0'
   s.dependency 'RBBAnimation', '~> 0.3'
